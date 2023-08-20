@@ -22521,6 +22521,8 @@ with pkgs;
 
   libdaemon = callPackage ../development/libraries/libdaemon { };
 
+  libdaisy = callPackage ../development/embedded/libdaisy { };
+
   libdatovka = callPackage ../development/libraries/libdatovka { };
 
   libdatrie = callPackage ../development/libraries/libdatrie { };
